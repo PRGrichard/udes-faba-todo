@@ -11,7 +11,11 @@
 |
 */
 
+
 Route::get('/', function()
 {
-	return View::make('hello');
+	return Redirect::to('tarea');
 });
+
+
+return Route::resource('tarea','tareaController');

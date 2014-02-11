@@ -7,7 +7,7 @@
   <h1>Lista de Tareas</h1>
 
   <p>
-    <a href="{{ route('tarea.create') }}" class="btn btn-primary">Crear un nuevo usuario</a>
+    <a href="{{ route('tarea.create') }}" class="btn btn-primary">Crear nueva tarea</a>
   </p>
 
 
