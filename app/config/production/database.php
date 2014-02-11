@@ -70,6 +70,7 @@ return array(
 			'username' => 'dllcywkuncimqy',
 			'password' => 'q1Gcc2hHPULI6627OTLcIlxdF5',
 			'charset'  => 'utf8',
+			'port'     => '5432',
 			'prefix'   => '',
 			'schema'   => 'public',
 		),
