@@ -65,10 +65,10 @@ return array(
 
 		'pgsql' => array(
 			'driver'   => 'pgsql',
-			'host'     => 'localhost',
-			'database' => 'todo-heroku',
-			'username' => 'postgres',
-			'password' => 'skchard',
+			'host'     => 'ec2-54-204-37-92.compute-1.amazonaws.com',
+			'database' => 'd920ku0i6fdpk3',
+			'username' => 'dllcywkuncimqy',
+			'password' => 'q1Gcc2hHPULI6627OTLcIlxdF5',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 			'schema'   => 'public',
