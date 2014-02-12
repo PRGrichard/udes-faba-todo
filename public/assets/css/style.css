@@ -19,3 +19,10 @@ body .page-header
 		margin:10px;
 
 	}
+
+
+form select{
+	color: #333;
+	background-color: #ebebeb;
+	border-color: #adadad;
+}

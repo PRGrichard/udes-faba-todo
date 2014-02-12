@@ -66,7 +66,7 @@ return array(
 		'pgsql' => array(
 			'driver'   => 'pgsql',
 			'host'     => 'localhost',
-			'database' => 'todo-heroku',
+			'database' => 'todo-udes',
 			'username' => 'postgres',
 			'password' => 'skchard',
 			'charset'  => 'utf8',

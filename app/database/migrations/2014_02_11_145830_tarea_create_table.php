@@ -34,7 +34,7 @@ class TareaCreateTable extends Migration {
 	public function down()
 	{
 		//
-		Shema::drop('tarea');
+		Schema::drop('tarea');
 	}
 
 }

@@ -39,6 +39,15 @@
                     {{ Form::label('desTask', 'Nombre completo') }}
                     {{ Form::textarea('desTask', null, array('placeholder' => 'Describe tu Tarea', 'class' => 'form-control')) }}
                   </div>
+
+                  <div class="form-group col-md-4">
+                      {{ Form::select('estado', array(
+                      'por hacer' => 'Por hacer',
+                      'trabajando' => 'Trabajando',
+                      'hecho' => 'Hecho'
+                      )) }}
+
+                  </div>
 </div>
 
 
@@ -48,9 +57,10 @@
        <div class="form-group col-md-4">
 
                          <a href="{{ route('tarea.index') }}" class="btn btn-info">Voler</a>
-                        {{ Form::button($action. ' tareas' ,array('type' => 'submit', 'class' => 'btn btn-primary')) }}
 
+                        {{ Form::button($action. ' tareas' ,array('type' => 'submit', 'class' => 'btn btn-primary')) }}
                       {{ Form::close() }}
+
 
 
        </div>

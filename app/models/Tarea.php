@@ -3,7 +3,7 @@
 class Tarea extends Eloquent {
 
     protected $table = 'tarea';
-    protected $fillable = array('name', 'desTask', 'timestamps');
+    protected $fillable = array('name', 'desTask','estado','timestamps');
 
 
 

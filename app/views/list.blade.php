@@ -15,12 +15,14 @@
     <tr>
         <th>Titulo</th>
         <th>Descripción de Tarea</th>
+        <th>Estado</th>
         <th>Acciones</th>
     </tr>
     @foreach ($tareas as $tarea)
     <tr>
         <td>{{ $tarea->name }}</td>
         <td>{{ $tarea->desTask}}</td>
+        <td>{{ $tarea->estado}}</td>
         <td>
 
 	          <a href="{{ route('tarea.show', $tarea->id) }}" class="btn btn-info"> Ver </a>
