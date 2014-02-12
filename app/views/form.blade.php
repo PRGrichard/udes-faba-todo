@@ -4,7 +4,7 @@
 
     if ($tarea->exists):
         $form_data = array('route' => array('tarea.update', $tarea->id), 'method' => 'PATCH');
-        $action    = 'Editar';
+        $action    = 'Guardar';
     else:
         $form_data = array('route' => 'tarea.store', 'method' => 'POST');
         $action    = 'Crear';
@@ -19,11 +19,9 @@
 
 @section ('content')
 
-<h1> {{ $action }}Tarea</h1>
+<h1>  Editar Tarea</h1>
 
-<p>
-    <a href="{{ route('tarea.index') }}" class="btn btn-info">Lista de Tareas</a>
-  </p>
+
 
 
 {{ Form::model($tarea, $form_data, array('role' => 'form')) }}
@@ -42,9 +40,25 @@
                     {{ Form::textarea('desTask', null, array('placeholder' => 'Describe tu Tarea', 'class' => 'form-control')) }}
                   </div>
 </div>
-                  {{ Form::button($action. ' tareas' ,array('type' => 'submit', 'class' => 'btn btn-primary')) }}
 
-              	{{ Form::close() }}
+
+<div class="row">
+
+
+       <div class="form-group col-md-4">
+
+                         <a href="{{ route('tarea.index') }}" class="btn btn-info">Voler</a>
+                        {{ Form::button($action. ' tareas' ,array('type' => 'submit', 'class' => 'btn btn-primary')) }}
+
+                      {{ Form::close() }}
+
+
+       </div>
+
+
+</div>
+
+
 
 
 @stop

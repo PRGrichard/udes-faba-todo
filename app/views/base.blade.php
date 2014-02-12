@@ -15,8 +15,8 @@
         {{ HTML::style('assets/css/main.css')}}
         {{ HTML::style('assets/css/bootstrap.min.css')}}
         {{ HTML::style('assets/css/bootstrap-theme.min.css')}}
-
         {{  HTML::script('assets/js/vendor/modernizr-2.6.2.min.js')}}
+        {{ HTML::style('assets/css/style.css')}}
 
 
     </head>
@@ -28,6 +28,13 @@
         <!-- Add your site or application content here -->
 
 {{-- Wrap all page content here --}}
+
+
+
+ <div class="page-header" id="cabecera">
+                <h1>TODO <small>UDES-FABA</small></h1>
+       </div>
+
     <div id="wrap">
       {{-- Begin page content --}}
       <div class="container">

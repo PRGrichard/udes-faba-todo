@@ -1,0 +1,21 @@
+body
+{
+
+	padding: 0px;
+}
+
+
+body .page-header
+{
+	background-color: rgb(16, 80, 91);
+	color: white;
+	margin: 1px;
+	padding-top: 19px;
+	margin-top: inherit;
+}
+
+	body .page-header h1
+	{
+		margin:10px;
+
+	}

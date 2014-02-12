@@ -19,6 +19,7 @@ class TareaCreateTable extends Migration {
 			$table->increments('id');
 			$table->string('name',60);
 			$table->string('desTask',400);
+			$table->string('estado',20);
 			$table->timestamps();
 
 		});
